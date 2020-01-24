@@ -20,10 +20,18 @@ void minmax(int i, int j){
         }
     }
     mid = (i+j)/2;
-    minmax()
-    
-    
-    
+    minmax(i, mid);
+    max1 = max; min1 = min;
+    minmax(mid +1, j);
+    if(max1 > max){
+        max = max1;
+    }
+    if(min1 < min){
+        min = min1;
+    }
+
+
+
 }
 int main(){
     int num;
