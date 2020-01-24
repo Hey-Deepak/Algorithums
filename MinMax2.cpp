@@ -1,9 +1,9 @@
 #include<iostream>
-int min, max, arr[1000];
 using namespace std;
 
 int main(){
     int num;
+    int arr[100];
     cout << "Enter Length of Array" << endl;
     cin >> num ;
     
@@ -17,6 +17,7 @@ int main(){
         if(arr[i] > max)
             max = arr[i];
     };
-
+    cout << min << endl;
+    cout << max << endl;
     return 0;
 }
