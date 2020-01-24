@@ -18,14 +18,9 @@ void minmax(int i, int j){
             max = arr[j];
             min = arr[i];
         }
-    }else if ()
-    {
-        /* code */
     }
-    
-    {
-        /* code */
-    }
+    mid = (i+j)/2;
+    minmax()
     
     
     
