@@ -3,9 +3,16 @@ using namespace std;
 
 int main()
 {
-    char grade[100] = {'A', '+', 'A', 'B'};
-    int marks = 0, subject = 0, flag = 0;
+    char grade[100];
+    int marks = 0, subject = 0, flag = 0, count;
     int size = sizeof(grade) / sizeof(grade[0]);
+    cout << "Enter Your Grades without Leaving Spaces \nAnd Total Number of subject " << endl;
+    cin >> count ;
+    for (int j = 0; j < count; j++)
+    {
+        cin >> grade[j] ;
+    }
+    
     for (int i = 0; grade[i] != '\0'; i++)
     {
         if (grade[i] == 'A' && grade[i + 1] == '+')
