@@ -1,0 +1,3 @@
+println("Name :- " + "${stuName} " + "Age :- " + "${stuAge}");
+    println("Name :- " + "${stuName} " + "Age :- " + "${stuAge}");
+    println("Name :- " + "${stuName} " + "Age :- " + "${stuAge}");
